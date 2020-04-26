@@ -1,0 +1,207 @@
+/* index(home) css */
+body{
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#aboutUs{
+    text-align: left;
+}
+
+#bigPic{
+    width: 100%;
+}
+
+header{
+    background-image: url(../images/banner-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: black;
+    border: 2px solid darkgreen;
+}
+
+nav{
+    background-color: darkgreen;
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: grey;
+    display: inline;
+    padding: 15px;
+    margin: 1px;
+    border: 2px;
+}
+
+nav ul li:hover{
+    background-color: gold;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+aside ul li{
+    list-style-type: none;
+}
+
+aside ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+aside{
+    width: 18.5%;
+    float: right;
+}
+
+.chefNames{
+    text-align: left;
+}
+
+footer{
+    clear: both;
+    border: 1px solid darkgreen;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+footer ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    margin: 1px;
+    border: 2px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* gallery css
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* contact css */
+	
+.form {
+    margin-top: auto;        
+}
+
+.formMove {
+    padding-left: 150px;    
+    padding-bottom: 50px;
+}
+
+footer {
+    margin-top: 25%;
+}
+
+.contactText {
+    padding-left: 150px;
+}
+
+.map {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 50PX;
+}
+
